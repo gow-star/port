@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        
+     a{
+            margin:12px 20px;
+            font-weight: bold;
+            font-size:20px;
+            background-color: rgb(150, 136, 136);
+            background: linear-gradient(lightblue,blue);
+            text-decoration: none;
+            border-radius: 5px 20px;
+            color:white;
+            text-align: right;
+            padding: 8px;
+     }
+     .header{
+            display: flex;
+            width:100%;
+            height:50px;
+            justify-content: right;  
+
+        }
+        body{
+            background-color: blue;
+        }
+        .box1,.box2,.box3,.box4{
+            display: grid;
+            grid-template-columns:repeate(4,1fr);
+            grid-template-columns: auto;
+            background-color: aliceblue;
+            padding:20px;
+            gap:20px;
+            width:20%;
+            height:150px;
+            margin-left: 80px;
+            margin-right: 50px;
+            margin-top:40px;
+
+        }
+        img{
+            width:20%;
+
+        }
+
+        .section1{
+            display:flex;
+            background-color: orange;
+            width:100%;
+            height:150px;
+        }
+        p{
+            text-align: left;
+            font-weight: bold;
+            font-size: small;
+            
+        }
+        .section2{
+            width:50%;
+        
+            
+
+        }
+        h1{
+            color:white;
+            text-align: center;
+        }
+        .flex{
+            display: flex;
+            
+            margin-top: 10%;
+        }
+label{
+    color:white;
+}
+
+     </style>
+
+</head>
+<p style="font-size:30px;"
+>Gowthami</p>
+    <div class="header">
+     <nav>
+        <a href="About.html">About</a>
+        <a href="Skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+
+     </nav>
+    </header>
+    </div>
+    <div class="section1">
+        <div class="box1">
+            <img src="loc.png">
+            <p>Address</p>
+            chennai,tamilnadu
+             
+        </div>
+         <div class="box2">
+            <img src="call.jpeg">
+            <p>Phone number</p>
+           <p> 7397496981</p>
+            
+        </div>
+         <div class="box3">
+            <img src="tele.png">
+            <h6>FAX</h6>
+            123-567-890
+        </div>
+         <div class="box4">
+            <img src="envelope-icon.png">
+            <p>EMAIL</p>
+            <p>gowthamivijay2@gmail.com</p>
+            
+        </div>
+       
+        
+    </div>
+</div>
+<div class="flex">
+    <div class="section2">
+        <h1>GET IN TOUCH</h1>
+        
+        <img src="face.jpeg"style="width:5%">
+        <img src="tw.png"style="width:5%">
+        <img src="ins.jpeg"style="width:5%">
+        
+        </div>
+<div class="section3">
+
+    <form>
+        <form action="/submit-form" method="POST" style="max-width:800px;margin:auto;">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required style="width:100%;padding:8px;margin:5px 0;"><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required style="width:100%;padding:8px;margin:5px 0;"><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="5" required style="width:100%;padding:8px;margin:5px 0;"></textarea>
+
+  <button type="submit" style="padding:10px 20px;background-color:#4CAF50;color:white;border:none;">Submit</button>
+</form>
+
+    </form>
+
+    </div>
+    </div>
+       
+</body>
+</html>
